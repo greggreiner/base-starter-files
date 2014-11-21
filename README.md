@@ -33,6 +33,8 @@ Keep specificity as low as possible. Write in specificity order - from general t
 
 Abstract common patterns when possible into reusable structures (loosely OOCSS based)
 
+Create a foundational structure but not so rigid that it can't adapt to the needs of a particular project 
+
 * Settings - variables and configuration switches 
 * Tools - mixins and functions
 * Generic - normalize/reset, other global rules such as box-sizing (could be part of Base)
@@ -81,7 +83,7 @@ Settings and tools are included only when using a preprocessor
 * RULE: Use SCSS syntax when writing Sass
 * RULE: Use box-sizing: border-box
 * RULE: Use rems and px for fonts, em for typography bottom margins and media queries
-* RULE: Don't put a unit on line-height
+* RULE: Don't put a unit on line-height (e.g. use line-height: 1.5 rather than line-height: 1.5%)
 * RULE: Image filenames should match class naming and indicate their purpose, e.g. icon-twitter.png, bg-hero-home.jpg
 * RULE: hex values should be lowercase (#fff rather than #FFF)
 * RULE: name objects and components from generic to specific (e.g. list-vertical, list-inline vs vertical-list, inline-list; .nav, .nav-primary, .nav-secondary )
@@ -125,3 +127,13 @@ Settings and tools are included only when using a preprocessor
 * TODO: Consider whether component isolation may be a better approach than abstracting reusable objects. Maybe objects should be a very limited set of single responsibility classes/modules (e.g. pipe list)
 * TODO: determine if we'll use libsass or ruby-sass
 * TODO: determine if we'll use any package management tools like Bower
+
+Example:
+
+```css
+.example {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+```
