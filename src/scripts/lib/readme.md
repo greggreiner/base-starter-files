@@ -1,0 +1,3 @@
+# Third-party/vendor JavaScript files
+
+JQuery, plugins, etc...

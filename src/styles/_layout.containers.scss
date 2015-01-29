@@ -1,0 +1,17 @@
+/*------------------------------------------------------------*\
+ 	#CONTAINERS
+\*------------------------------------------------------------*/
+
+/** 
+ * Generic content containers - wrappers, sections, etc
+ */
+
+// content wrapper, width can vary based on site/breakpoint
+.wrapper {}
+
+// generic content sectioning element, 100% width
+.section {
+	width: 100%;
+}
+
+.site-main {}

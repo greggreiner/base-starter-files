@@ -1,0 +1,32 @@
+/*------------------------------------------------------------*\
+ 	#TYPE SELECTORS
+\*------------------------------------------------------------*/
+
+/** 
+ * Type selectors 
+ */
+
+// CSS viewport rule for browsers that do not support the meta viewport tag
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+html {
+	overflow-y: scroll; // force scrollbar
+    min-height: 100%; 	// ensure page height fills the viewport
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    //test the following
+    /*font-size: ($base-font-size / 16px) * 1em;
+    line-height: $base-line-height / $base-font-size;
+    */
+    color: $base-text-color;
+    background-color: $base-background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {	
+	margin: 0;
+	padding: 0;
+	color: $base-text-color;
+}

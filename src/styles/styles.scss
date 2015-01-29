@@ -1,0 +1,45 @@
+// Import Sass partials
+
+// --------------------------------------------------
+// Preprocessor - variables, functions, mixins
+// --------------------------------------------------
+@import "settings.variables";
+@import "settings.functions";
+@import "settings.mixins";
+
+// --------------------------------------------------
+// Base - normalize, universal, and type selectors
+// --------------------------------------------------
+@import "lib/normalize";
+// box-sizing, other universal selectors
+@import "base.universals";
+// element styling including html, body, p, ul, etc...
+@import "base.type";
+
+// --------------------------------------------------
+// Layout - grids, wrappers, page sectioning
+// these may become objects/components
+// --------------------------------------------------
+@import "layout.grid";
+@import "layout.containers";
+
+// --------------------------------------------------
+// Objects - reusable, structural abstractions
+// --------------------------------------------------
+@import "objects.media";
+
+// --------------------------------------------------
+// Commponents - discrete UI components
+// --------------------------------------------------
+@import "components.buttons.scss";
+@import "components.header.scss";
+@import "components.footer.scss";
+
+// --------------------------------------------------
+// Utility - Helpers and states
+// --------------------------------------------------
+@import "utilities.clearfix";
+@import "utilities.width";
+@import "utilities.spacing";
+// globally available states, such as .is-visually-hidden
+@import "utilities.states";

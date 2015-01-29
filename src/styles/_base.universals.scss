@@ -1,0 +1,19 @@
+/*------------------------------------------------------------*\
+ 	#BOX-SIZING
+\*------------------------------------------------------------*/
+
+/** 
+ * Set box-sizing to border-box globally
+ * Using the inherit approach allows us to easily override it for a specific component when necessary 
+ */
+
+html {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+}

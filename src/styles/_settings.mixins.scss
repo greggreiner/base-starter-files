@@ -1,0 +1,25 @@
+// --------------------------------------------------
+// Sass mixins
+// --------------------------------------------------
+
+// Font sizing
+@mixin font-size($size) {
+	font-size: 0px + $size;
+	font-size: $size / $base-font-size +rem;
+}
+
+// Media Queries
+// if $responsive is not true, output the styles without the media query
+@mixin breakpoint($breakpoint) {
+	@if $responsive == true {
+		// output the styles inside of a media query
+	  	@media screen and (min-width: $breakpoint) { @content; }
+	}
+	@else {
+		// output the styles, without a media query
+		@content;
+	}
+}
+
+
+

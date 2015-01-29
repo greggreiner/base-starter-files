@@ -1,0 +1,13 @@
+/*------------------------------------------------------------*\
+ 	#CLEARFIX
+\*------------------------------------------------------------*/
+
+// Use only when setting the overflow property on the component is not an option
+.clearfix,
+%clearfix {
+	&:after {
+    	content: "";
+		display: table;
+		clear: both;
+	}
+}
