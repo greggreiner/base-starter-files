@@ -40,7 +40,7 @@ See gulpfile.js for details
 
 ## Setup
 
-* Run the following from the project's root directory
+Run the following from the project's root directory:
 
 `npm install` or `sudo npm install` to install the required modules and plugins
 
