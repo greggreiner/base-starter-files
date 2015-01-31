@@ -43,11 +43,12 @@ See gulpfile.js for details
 * Run the following from the project's root directory
 
 `npm install` or `sudo npm install` to install the required modules and plugins
+
 `gulp` to start the build, watch, and server (browser-sync)
 
 
 ## TODO:
 
-[] Setup dev and prod switches for css and js includes (minified or not)
-[] Consider image optimization plugins
-[] Consider separate vendor and site scripts
+* Setup dev and prod switches for css and js includes (minified or not)
+* Consider image optimization plugins
+* Consider separate vendor and site scripts
