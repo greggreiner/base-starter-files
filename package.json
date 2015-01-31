@@ -1,31 +1,31 @@
 {
-  "name": "base-starter-files",
+  "name": "website-starter-files",
   "version": "0.0.1",
-  "description": "Web project starter files",
+  "description": "Website starter files",
   "main": "index.html",
   "devDependencies": {
+    "browser-sync": "^2.0.0-rc3",
     "del": "^1.1.1",
     "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
     "gulp-connect": "^2.2.0",
+    "gulp-filesize": "0.0.6",
+    "gulp-filter": "^2.0.0",
     "gulp-minify-css": "^0.4.3",
+    "gulp-order": "^1.1.1",
     "gulp-rename": "^1.2.0",
-    "gulp-ruby-sass": "^0.7.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-uglify": "^1.1.0",
+    "run-sequence": "^1.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/greggreiner/build-script-gulp.git"
+    "url": "https://github.com/greggreiner/base-starter-files.git"
   },
-  "keywords": [
-    "starter",
-    "files"
-  ],
   "author": "Greg Greiner",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/greggreiner/build-script-gulp/issues"
+    "url": "https://github.com/greggreiner/base-starter-files/issues"
   },
-  "homepage": "https://github.com/greggreiner/build-script-gulp"
+  "homepage": "https://github.com/greggreiner/base-starter-files"
 }
