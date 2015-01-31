@@ -30,3 +30,28 @@ body {
 	padding: 0;
 	color: $base-text-color;
 }
+
+// Headings
+h1, .h1 {}
+h2, .h2 {}
+h3, .h3 {}
+h4, .h4 {}
+h5, .h5 {}
+h6, .h6 {}
+
+// Paragraphs and lists
+p {}
+ul {}
+ol {}
+
+// lead paragraph styling
+.lead { 
+}
+
+// Links
+a {}
+a:hover,
+a:focus,
+a:active {}
+
+// other type/element selectors

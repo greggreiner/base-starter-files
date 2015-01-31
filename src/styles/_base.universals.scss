@@ -17,3 +17,15 @@ html {
 *:before {
 	box-sizing: inherit;
 }
+
+/** 
+ * Set margins globally
+ * Experimenting with this - remove if not practical across sites
+ * http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
+ */
+ 
+// Use a Sass variable for consistency and test spacing modifiers
+// May need to reset normalize margins
+* + * {
+	margin-top: 1em;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Base layout</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/styles.min.css"/>
+		<!-- include a simple script to create HTML5 elements for IE8 (nav, header, footer, section, aside, main) -->
+		<!-- Test for/create <main> in all browsers when it doesn't exist,
+			 don't need this if treated as block element - test in Opera Mini and IE9+
+		-->
+	</head>
+	<body>
+		<header class="site-header" role="banner">
+			<a class="site-logo" href=""><img src="http://placehold.it/100x50&text=Logo" alt="logo"/></a>
+			<nav role="navigation">
+				<ul class="site-nav">
+					<li><a href="">link 1</a></li>
+					<li><a href="">link 2</a></li>
+					<li><a href="">link 3</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="site-main" role="main">
+			<h1>Page Heading</h1>
+			<p>Site main content</p>
+		</main>
+		<footer class="site-footer" role="contentinfo">
+			<p>Site Footer</p>
+		</footer>
+		<!-- JavaScript references go here -->
+	</body>
+</html>
