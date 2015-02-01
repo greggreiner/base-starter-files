@@ -6,14 +6,15 @@ Uses Sass and Gulp
 
 ## Directory Structure
 
-src - source files
-dist - build/distribution files
+src - source files:
 
-fonts - web fonts
-images - source images
-styles - css, scss files
-scripts - javascript files
-views - html files
+* fonts - web fonts
+* images - source images
+* styles - css, scss files
+* scripts - javascript files
+* views - html files
+
+dist - build/distribution files
 
 lib - 3rd party/vendor scripts and styles, under respective directories
 
